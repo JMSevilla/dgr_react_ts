@@ -3,7 +3,7 @@ import { ReactElement, ReactNode } from "react";
 
 interface Props {
   elevation?: number;
-  element: ReactElement | ReactNode;
+  element?: ReactElement | ReactNode;
 }
 
 export const BasicCard: React.FC<React.PropsWithChildren<Props>> = ({

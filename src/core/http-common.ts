@@ -2,7 +2,7 @@ import axios from "axios";
 
 export class Api {
   connect() {
-    const baseUrl = process.env.REACT_APP_PUBLIC_URL;
+    const baseUrl = "http://localhost:3000";
     const instance = axios.create({
       baseURL: baseUrl,
       headers: {

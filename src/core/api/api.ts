@@ -1,7 +1,8 @@
 import { Api } from "../http-common";
+import { MockDataProps } from "../types/types";
 
 export class HttpRequest {
-  public fetchUsers() {
-    return new Api().connect().get("/users");
+  public addNewPosts(props: MockDataProps) {
+    return new Api().connect().post("/posts", props);
   }
 }
