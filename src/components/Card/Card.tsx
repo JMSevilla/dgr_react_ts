@@ -1,18 +1,20 @@
-import { Card, CardContent, CardActions } from "@mui/material";
+import { Card, CardContent, CardActions, CardProps } from "@mui/material";
 import { ReactElement, ReactNode } from "react";
 
 interface Props {
   elevation?: number;
   element?: ReactElement | ReactNode;
+  sx?: CardProps["sx"];
 }
 
 export const BasicCard: React.FC<React.PropsWithChildren<Props>> = ({
   children,
   elevation,
   element,
+  sx,
 }) => {
   return (
-    <Card elevation={elevation}>
+    <Card sx={sx} elevation={elevation}>
       <CardContent>{children}</CardContent>
       <CardActions
         sx={{

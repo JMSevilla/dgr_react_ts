@@ -1,5 +1,4 @@
-
-
-export const RouterConfig = { 
-    home : { path: "/" }
-}
+export const RouterConfig = {
+  home: { path: "/" },
+  login: { path: "/login" },
+};

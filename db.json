@@ -1,49 +1,26 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": "1",
-      "title": "a title",
-      "views": 100
+      "id": "d8a4",
+      "firstname": "qwe",
+      "middlename": "qwe",
+      "lastname": "qwe",
+      "username": "qwe",
+      "password": "NTQxODg3M1F3ZQ==",
+      "userType": "admin",
+      "confirmPassword": "",
+      "token": "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpkV0lpT2lJeE1qTTBOVFkzT0Rrd0lpd2libUZ0WlNJNklrcHZhRzRnUkc5bElpd2lhV0YwSWpveE5URTJNak01TURJeWZRLlNmbEt4d1JKU01lS0tGMlFUNGZ3cE1lSmYzNlBPazZ5SlZfYWRRc3N3NWM="
     },
     {
-      "id": "2",
-      "title": "another title",
-      "views": 200
-    },
-    {
-      "id": "3",
-      "title": "another title",
-      "views": 200
-    },
-    {
-      "id": "4",
-      "title": "test",
-      "views": "123123"
-    },
-    {
-      "id": "5",
-      "title": "lizter",
-      "views": "1000000"
-    },
-    {
-      "id": "6",
-      "title": "qweqwe",
-      "views": "123123123"
+      "id": "77c1",
+      "firstname": "s",
+      "middlename": "s",
+      "lastname": "s",
+      "username": "s",
+      "password": "NTQxODg3M1Bhc3N3b3Jk",
+      "userType": "admin",
+      "confirmPassword": "",
+      "token": "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpkV0lpT2lJeE1qTTBOVFkzT0Rrd0lpd2libUZ0WlNJNklrcHZhRzRnUkc5bElpd2lhV0YwSWpveE5URTJNak01TURJeWZRLlNmbEt4d1JKU01lS0tGMlFUNGZ3cE1lSmYzNlBPazZ5SlZfYWRRc3N3NWM="
     }
-  ],
-  "comments": [
-    {
-      "id": "1",
-      "text": "a comment about post 1",
-      "postId": "1"
-    },
-    {
-      "id": "2",
-      "text": "another comment about post 1",
-      "postId": "1"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
