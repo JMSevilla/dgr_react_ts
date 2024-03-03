@@ -8,15 +8,14 @@ import React, {
 import { UserSchemaType } from "./schema/user-validation";
 import useApi from "./api/api";
 import { AxiosResponse } from "axios";
+import { useQuery } from "react-query";
 
 interface UserContextProps {
-  users: UserSchemaType[];
-  getAllUsers: () => void;
+  data: any;
 }
 
 const UserContext = createContext<UserContextProps>({
-  users: [],
-  getAllUsers: () => undefined,
+  data: undefined,
 });
 
 export const useUserContext = () => useContext(UserContext);
@@ -24,19 +23,20 @@ export const useUserContext = () => useContext(UserContext);
 export const UserContextProvider: React.FC<React.PropsWithChildren<{}>> = ({
   children,
 }) => {
-  const [users, setUsers] = useState<UserSchemaType[]>([]);
+  const handleFetchData = () => {
+    return useApi.getAllUsers().then((res) => res.data);
+  };
 
-  const getAllUsers = useCallback(() => {
-    useApi.getAllUsers().then((res: AxiosResponse) => {
-      setUsers(res.data);
-    });
-  }, [users]);
+  const { data } = useQuery("handleFetchData", handleFetchData);
 
+  /**
+   * const { data }
+   * [{}]
+   */
   return (
     <UserContext.Provider
       value={{
-        getAllUsers,
-        users,
+        data: data,
       }}
     >
       {children}

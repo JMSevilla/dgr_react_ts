@@ -1,7 +1,14 @@
 {
   "users": [
     {
-      "id": "d8a4",
+      "username": "testlizter",
+      "lastname": "babael",
+      "middlename": "test",
+      "firstname": "Lizter",
+      "id": "d8a4"
+    },
+    {
+      "id": "2bac",
       "firstname": "qwe",
       "middlename": "qwe",
       "lastname": "qwe",
@@ -12,12 +19,12 @@
       "token": "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpkV0lpT2lJeE1qTTBOVFkzT0Rrd0lpd2libUZ0WlNJNklrcHZhRzRnUkc5bElpd2lhV0YwSWpveE5URTJNak01TURJeWZRLlNmbEt4d1JKU01lS0tGMlFUNGZ3cE1lSmYzNlBPazZ5SlZfYWRRc3N3NWM="
     },
     {
-      "id": "77c1",
-      "firstname": "s",
-      "middlename": "s",
-      "lastname": "s",
-      "username": "s",
-      "password": "NTQxODg3M1Bhc3N3b3Jk",
+      "id": "d2d1",
+      "firstname": "zxc",
+      "middlename": "zxc",
+      "lastname": "zxc",
+      "username": "zxc",
+      "password": "NTQxODg3M1p4Yw==",
       "userType": "admin",
       "confirmPassword": "",
       "token": "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpkV0lpT2lJeE1qTTBOVFkzT0Rrd0lpd2libUZ0WlNJNklrcHZhRzRnUkc5bElpd2lhV0YwSWpveE5URTJNak01TURJeWZRLlNmbEt4d1JKU01lS0tGMlFUNGZ3cE1lSmYzNlBPazZ5SlZfYWRRc3N3NWM="

@@ -4,3 +4,4 @@ export * from "./Grid/Grid";
 export * from "./TextField/TextField";
 export * from "./Button/Button";
 export * from "./DataGrid/DataGrid";
+export * from "./AlertDialog/AlertDialog";

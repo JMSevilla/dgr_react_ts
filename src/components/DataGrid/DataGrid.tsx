@@ -2,7 +2,7 @@ import { DataGrid as MuiDataGrid, DataGridProps } from "@mui/x-data-grid";
 
 interface Props {
   data: DataGridProps["rows"];
-  columns: DataGridProps["columns"];
+  columns: any;
   sx?: DataGridProps["sx"];
   loading?: DataGridProps["loading"];
 }
